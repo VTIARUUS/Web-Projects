@@ -1,0 +1,92 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: lightskyblue;
+}
+.box
+{
+    box-sizing: border-box;
+    display:block;
+    margin: auto;
+    height: 500px;
+    width: 400px;
+    margin-top: 50px;
+    background-color:white;
+    padding: 28px;
+    border-radius: 10px;
+}
+.content
+{
+    background-color: white;
+    padding: 9px;
+}
+.content > p
+{
+    text-align: left;
+    padding: 21px;
+    padding-left: 0px;
+    font-family: 'Open Sans', sans-serif;
+    color:darkturquoise;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size:22px;
+}
+select
+{
+    display: block;
+    
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    padding: 5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.name > input[type=text]
+{
+    box-sizing: border-box;
+    
+    display: inline-block;
+    width: 49%;
+    border-top: none;
+    border-left: none;
+    font-family: 'Open Sans', sans-serif;
+    border-right: none;
+    padding-left: 7px;
+    padding:5px;
+    border-bottom: 1px solid black;
+
+}
+.content > .company > input[type=text]
+{
+    display: block;
+  
+    width: 97%;
+    padding: 5px;
+    border-top: none;
+    border-left: none;
+    border-bottom: 1px solid black;
+    border-right: none;
+}
+.content > .last > select
+{
+ box-sizing: border-box;
+   display: inline-block;
+   
+  
+    width:45%;
+}
+.content > .last > input[type=text]
+{
+    display: inline-block;
+ 
+    width: 50%;
+    padding: 5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid black;
+}

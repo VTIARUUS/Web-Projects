@@ -1,0 +1,102 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(174,24,255,1) 0%, rgba(246,134,255,1) 90% );
+
+    background-attachment: fixed;
+    margin-top: 100px;
+}
+.box
+{
+    box-sizing: border-box;
+    display: block;
+    border-radius: 10px;
+    height: 500px;
+    padding: 30px;
+   
+    width: 450px;
+    
+    margin: auto;
+    background-color:white;
+}
+.name
+{
+
+    flex-direction:row;   
+    display: flex;
+    padding: 11px;
+}
+.name > input[type=text] ,input[type=email]
+{
+    box-sizing: border-box;
+    margin-top: 10px;
+    padding-left: 4%;
+    width: 50%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-bottom: 7px;   
+}
+.name > #lname ,#phoneno
+{
+    margin-left: 15px;
+}
+.heading
+{ box-sizing: border-box;
+    padding: 10px;
+    font-weight: 550;
+    letter-spacing: 1px;
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+.birthday
+{
+
+    padding-left: 10;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+.b2
+{
+    padding-left: 29%;
+    
+}
+.sub
+{
+ 
+    padding: 11px;
+    font-family: 'Open Sans', sans-serif;
+}
+.sub > select
+{
+    font-family: 'Open Sans', sans-serif;
+   
+    height: 35px;
+    width: 100%;
+}
+.submit > input[type=submit]
+{
+    padding:20px;
+    height: 30px;
+    background-color: yellow;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 13px;
+    background-color: #1b6ca8;
+    border-radius: 9px;
+    color: white;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+.submit{
+    box-sizing: border-box;
+    display: block;
+    padding-left: 40px;
+    padding-top: 10px;
+}

@@ -1,0 +1,110 @@
+.background
+{
+    
+    box-sizing: border-box;
+    display: block;
+    background-color: rgb(54, 54,75);
+    height: 500px;
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+}
+.smallbox
+{
+    box-sizing: border-box;
+    padding-top: 15px;
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    height: 10%;
+    text-align: center;
+    color: white;
+    background-color: rgb(54, 54,75);
+}
+.form
+{
+    box-sizing: border-box;
+    background-color: white;
+    display: block;
+    height: 90%;
+    padding: 10px;
+    border-radius: 4px;
+}
+a
+{
+    color: white;
+}
+.registration
+{
+    display: block;
+    height: 60px;
+    box-sizing: border-box;
+    font-size: 42px;
+    font-weight: 490;
+    text-align: center;
+    letter-spacing: 1px;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.info
+{
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 7px;
+    padding-left: 15px;
+    font-size: 13px;
+}
+.name
+{
+    display: block;
+    padding-top: 15px;
+}
+input[type=text]
+{
+    box-sizing: border-box;
+    display: inline-block;
+    width: 49%;
+    height:30px ;
+
+    font-family: 'Open Sans', sans-serif;
+}
+
+.email
+{
+    display: block;
+    padding-top: 25px;
+   
+
+}
+input[type=email],input[type=password]
+{
+    display: block;
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+    height: 26px;
+    width:330px;
+}
+.checkbox > a
+{ 
+    color: rgb(50, 187, 50);
+}
+.checkbox
+{
+    padding: 20px;
+}
+input[type=submit]
+{
+    display: block;
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    height: 26px;
+    width: 100%;
+    background-color: rgb(50, 187, 50);
+    border: none;
+    border-radius: 5px;
+}
+.submit
+{
+    font-weight: 500;
+}
